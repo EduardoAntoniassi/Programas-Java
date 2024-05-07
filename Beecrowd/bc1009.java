@@ -6,12 +6,12 @@ public class bc1009 {
  
     Scanner s = new Scanner(System.in);
     
-    String nome = s.nextLine();
     double a = s.nextDouble();
     double t = s.nextDouble();
     
     double bonus = a + (t * 0.15);
     
     System.out.printf("TOTAL = R$ %.2f\n" ,bonus);
+    s.close();
     }
 }

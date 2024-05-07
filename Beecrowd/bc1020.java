@@ -19,6 +19,7 @@ public class bc1020 {
        System.out.printf("%d ano(s)\n" , ano);
        System.out.printf("%d mes(es)\n" , mes);
        System.out.printf("%d dia(s)\n" , qtdbtd);
+       s.close();
  
     }
  

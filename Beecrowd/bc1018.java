@@ -29,7 +29,7 @@ public class bc1018 {
 	
 	System.out.printf("%d nota(s) de R$ 1,00\n" ,v/1);
 	v = v % 1;
-	
+	s.close();
     }
  
 }

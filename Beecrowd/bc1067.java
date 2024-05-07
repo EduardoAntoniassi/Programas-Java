@@ -11,6 +11,7 @@ public class bc1067 {
             System.out.println(i);
         }
     }
+    s.close();
     }
  
 }

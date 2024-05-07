@@ -18,6 +18,7 @@ public class bc1079 {
         
         System.out.printf("%.1f\n" ,media);
     }
+    s.close();
     }
  
 }

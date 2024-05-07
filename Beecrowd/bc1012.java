@@ -26,6 +26,7 @@ public class bc1012 {
     System.out.printf("TRAPEZIO: %.3f\n" ,trap);
     System.out.printf("QUADRADO: %.3f\n" ,quad);
     System.out.printf("RETANGULO: %.3f\n" ,ret);
+    s.close();
     }
  
 }

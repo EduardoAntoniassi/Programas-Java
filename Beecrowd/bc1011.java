@@ -12,5 +12,6 @@ public class bc1011 {
     
     System.out.printf("VOLUME = %.3f\n" ,VOL);
     
+    s.close();
     }
 }

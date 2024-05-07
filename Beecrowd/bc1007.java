@@ -14,7 +14,7 @@ public class bc1007 {
     int DIFERENCA = ((a * b) - (c * d));
     
     System.out.printf("DIFERENCA = %d\n" ,DIFERENCA);
-    
+    s.close();
     }
  
 }

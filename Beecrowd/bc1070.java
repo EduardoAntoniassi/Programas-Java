@@ -15,6 +15,7 @@ public class bc1070 {
         }
         impar++;
     }
+    s.close();
     }
  
 }

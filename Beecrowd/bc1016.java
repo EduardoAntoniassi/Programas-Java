@@ -11,7 +11,7 @@ public class bc1016 {
       int v = dist * 2;
       
       System.out.println(v + " minutos");
-        
+      s.close();
     }
  
 }

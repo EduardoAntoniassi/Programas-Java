@@ -22,6 +22,7 @@ public class bc1080 {
     }
     System.out.println(stg);
     System.out.println(posicao);
+    s.close();
     }
  
 }

@@ -13,7 +13,7 @@ public class bc1006 {
     double MEDIA = ((a*2) + (b*3) + (c*5)) / (2 + 3 + 5);
     
     System.out.printf("MEDIA = %.1f\n" ,MEDIA);
- 
+    s.close();
     }
  
 }

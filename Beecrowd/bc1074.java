@@ -28,5 +28,6 @@ public class bc1074 {
                System.out.println("ODD NEGATIVE");
            }
        }
+       s.close();
     }
 }

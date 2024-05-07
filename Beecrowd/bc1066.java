@@ -30,6 +30,6 @@ public class bc1066 {
       System.out.printf("%d valor(es) impar(es)\n" ,impares);
       System.out.printf("%d valor(es) positivo(s)\n" ,positivo);
       System.out.printf("%d valor(es) negativo(s)\n" ,negativo);
-
+      s.close();
    }
 }

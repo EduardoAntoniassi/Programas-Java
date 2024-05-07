@@ -14,6 +14,7 @@ public class bc1044 {
         } else {
             System.out.println("Nao sao Multiplos");
         }
+        s.close();
     }
  
 }

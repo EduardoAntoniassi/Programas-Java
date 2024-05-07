@@ -32,6 +32,7 @@ public class bc1052 {
     } else if (a == 12) {
     System.out.println("December");
     } 
+    s.close();
     }
  
 }

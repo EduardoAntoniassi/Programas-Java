@@ -19,7 +19,7 @@ public class bc1113 {
         
     }
     }
-    
+    s.close();
     }
  
 }

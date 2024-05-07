@@ -14,7 +14,7 @@ public class bc1008 {
     
     System.out.printf("NUMBER = %d\n" ,n);
     System.out.printf("SALARY = U$ %.2f\n" ,SALARY);
-    
+    s.close();
     }
  
 }

@@ -31,5 +31,6 @@ public class bc1041 {
           System.out.println("Eixo X");
           
       }
+      s.close();
     }
 }

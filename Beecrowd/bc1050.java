@@ -35,5 +35,6 @@ public class bc1050 {
 	} else {
 	    System.out.println("DDD nao cadastrado");
 	}
+	s.close();
   }
 }

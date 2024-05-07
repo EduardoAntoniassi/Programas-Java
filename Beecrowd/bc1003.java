@@ -11,7 +11,7 @@ public class bc1003 {
     int soma = a + b;
     
     System.out.printf("SOMA = %d\n" ,soma);
- 
+    s.close();
     }
  
 }

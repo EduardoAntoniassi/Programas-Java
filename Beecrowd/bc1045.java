@@ -28,7 +28,7 @@ public class bc1045 {
         } else if (a == b) {
             System.out.println("TRIANGULO EQUILATERO");
         
-        }
+        }s.close();
    }
  
 }

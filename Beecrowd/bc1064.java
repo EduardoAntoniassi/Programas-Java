@@ -18,6 +18,7 @@ public class bc1064 {
     media = media / soma;
     System.out.printf("%d valores positivos\n" ,soma);
     System.out.printf("%.1f\n" ,media);
+    s.close();
     }
  
 }

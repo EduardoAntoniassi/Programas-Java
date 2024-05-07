@@ -15,5 +15,6 @@ public class bc1075 {
          }
  
        }
+       s.close();
    }
 }

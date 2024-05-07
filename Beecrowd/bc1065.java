@@ -15,6 +15,7 @@ public class bc1065 {
         
     }
     System.out.printf("%d valores pares\n" ,pares);
+    s.close();
     }
  
 }

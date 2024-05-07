@@ -23,7 +23,7 @@ public class bc1037 {
         } else {
             System.out.println("Fora de intervalo");
         }
- 
+        s.close();
     }
  
 }

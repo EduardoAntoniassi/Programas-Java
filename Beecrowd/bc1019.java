@@ -17,6 +17,7 @@ public class bc1019 {
        int qtdseg = seg;
        
        System.out.printf("%d:%d:%d\n" ,hora ,min ,qtdseg);
+       s.close();
     }
  
 }

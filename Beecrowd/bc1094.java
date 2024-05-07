@@ -51,7 +51,7 @@ public class bc1094 {
        //System.out.printf("Percentual de sapos: %.2f %\n" ,porcents);
  
     }
-     
+    s.close();
     }
  
 }       

@@ -12,6 +12,7 @@ public class bc1017 {
       double dist = (vel * tempo) / 12;
       
       System.out.printf("%.3f\n" ,dist);
+      s.close();
     }
  
 }

@@ -61,6 +61,7 @@ public class bc1021 {
        val = (int) valinf / 1;
        System.out.printf("%d moeda(s) de R$ 0.01\n" ,val);
        valinf = valinf % 1.0;
+       s.close();
     }
  
 }

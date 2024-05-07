@@ -23,7 +23,7 @@ public class bc1116 {
                
            }
     }
- 
+    s.close();
     }
  
 }

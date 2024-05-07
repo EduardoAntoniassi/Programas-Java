@@ -25,6 +25,7 @@ public class bc1117 {
     
     double media = notavalida / 2;
     System.out.printf("media = %.2f\n" ,media);
+    s.close();
     }
  
 }

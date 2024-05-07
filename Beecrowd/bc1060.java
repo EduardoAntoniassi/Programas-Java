@@ -14,6 +14,7 @@ public class bc1060 {
         if (ns > 0) soma++;
     }
     System.out.printf("%d valores positivos\n" ,soma);
+    s.close();
     }
  
 }

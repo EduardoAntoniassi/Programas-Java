@@ -49,6 +49,6 @@ public class bc1049 {
               }
           }
        }
-    
+       s.close();
     }
 }

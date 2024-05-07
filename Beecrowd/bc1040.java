@@ -38,6 +38,7 @@ public class bc1040 {
               System.out.printf("Media final: %.1f" ,mediaex);  
             }
         }
+        s.close();
     }
  
 }

@@ -38,6 +38,6 @@ public class bc1048 {
           System.out.printf("Reajuste ganho: %.2f\n" ,sal * 0.04);
           System.out.println("Em percentual: 4 %");
       }
- 
+      s.close();
     }
 }

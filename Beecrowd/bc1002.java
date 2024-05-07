@@ -11,7 +11,7 @@ public class bc1002 {
           double A = n * (R*R);
           
           System.out.printf("A=%.4f\n" ,A);
-         
+         s.close();
     }
  
 }

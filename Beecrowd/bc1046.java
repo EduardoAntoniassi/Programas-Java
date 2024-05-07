@@ -21,6 +21,6 @@ public class bc1046 {
              System.out.printf("O JOGO DUROU 24 HORA(S)\n");
          
          }
-    
+         s.close();
     }
 }

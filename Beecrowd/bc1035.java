@@ -17,6 +17,6 @@ public class bc1035 {
      } else {
          System.out.println("Valores nao aceitos");
      }
- 
+     s.close();
     }
 }

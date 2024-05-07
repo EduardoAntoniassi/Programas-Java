@@ -12,6 +12,7 @@ public class bc1014 {
        double consmed = km/l;
        
        System.out.printf("%.3f km/l\n" ,consmed);
+       s.close();
     }
  
 

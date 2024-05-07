@@ -6,7 +6,7 @@ public class bc1042 {
  
        Scanner s = new Scanner(System.in);
        
-       int A, B, C, min1, min2 = 0, min3 = 0;
+       int min1, min2 = 0, min3 = 0;
        int n1 = s.nextInt();
        int n2 = s.nextInt();
        int n3 = s.nextInt();
@@ -34,5 +34,6 @@ public class bc1042 {
        System.out.println(n1);
        System.out.println(n2);
        System.out.println(n3);
+       s.close();
     }
 }

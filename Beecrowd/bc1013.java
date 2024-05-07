@@ -14,6 +14,7 @@ public class bc1013 {
         int maiorC = (maiorAB + C + Math.abs(maiorAB - C)) /2;
         
         System.out.println(maiorC + " eh o maior");
+        s.close();
     }
  
 }

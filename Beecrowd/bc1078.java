@@ -14,7 +14,7 @@ public class bc1078 {
       System.out.printf("%d x %d = %d\n" ,i ,n ,x);
      
      }
-    
+     s.close();
     }
 
  

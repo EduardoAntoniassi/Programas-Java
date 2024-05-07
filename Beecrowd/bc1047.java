@@ -14,5 +14,6 @@ public class bc1047 {
     if (h1 == m1 == (h2 == m2)) {
         System.out.println("O JOGO DUROU 24 HORA(S) E 0 MIMUTO(S)\n");
     }
+    s.close();
     }
 }

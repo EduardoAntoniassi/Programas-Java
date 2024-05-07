@@ -29,6 +29,7 @@ public class bc1038 {
             double rf = qua * 1.50;
             System.out.printf("Total: R$ %.2f\n" ,rf);
         }
+        s.close();
     }
  
 }

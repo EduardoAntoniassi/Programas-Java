@@ -19,6 +19,7 @@ public class bc1043 {
     } else {
         System.out.printf("Area = %.1f\n" ,area);
     }
+    s.close();
     }
  
 }
