@@ -12,6 +12,8 @@ public class bc1001 {
     
     System.out.printf("SOMA = %d\n" ,soma);
  
+    s.close();
+    
     }
  
 }
