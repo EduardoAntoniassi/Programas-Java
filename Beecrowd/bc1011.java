@@ -1,6 +1,6 @@
 import java.io.IOException;
 import java.util.Scanner;
-public class bc1001 {
+public class bc1011 {
  
     public static void main(String[] args) throws IOException {
  

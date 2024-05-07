@@ -13,7 +13,7 @@ public class bc1045 {
         if ((a >= (b + c))) {
             System.out.println("NAO FORMA TRIANGULO");
             
-        } else if ((Math.pow(a, 2)) = (b * b) + (c * c)) {
+        } else if (a * 2 == (b * b) + (c * c)) {
             System.out.println("TRIANGULO RETANGULO");
             
         } else if ((a * a) > (b * b) + (c * c)) {
@@ -25,7 +25,7 @@ public class bc1045 {
         } else if (((a = b) != c) | ((c = b) != a) | ((a = c) != b)) {
             System.out.println("TRIANGULO ISOSCELES");
         
-        } else if ((a = b) = c) {
+        } else if (a == b) {
             System.out.println("TRIANGULO EQUILATERO");
         
         }

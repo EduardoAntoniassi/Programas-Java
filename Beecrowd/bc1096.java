@@ -1,5 +1,5 @@
 import java.io.IOException;
-public class Main {
+public class bc1096 {
  
     public static void main(String[] args) throws IOException {
  
