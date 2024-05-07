@@ -11,7 +11,7 @@ public class bc1004 {
     int PROD = a * b;
     
     System.out.printf("PROD = %d\n" ,PROD);
- 
+    s.close();
     }
  
 }

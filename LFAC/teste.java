@@ -6,7 +6,9 @@ public class teste {
 
     Scanner s = new Scanner(System.in);
      
+    System.out.println("Insira o Primeiro valor\n");
     double a = s.nextDouble();
+    System.out.println("Insira o Segundo valor\n");
     double b = s.nextDouble();
     
     double divide = a / b;
@@ -14,7 +16,7 @@ public class teste {
     System.out.printf("Divide = %.2f" ,divide);
     
     s.close();
-    
+
     }
  
 }
