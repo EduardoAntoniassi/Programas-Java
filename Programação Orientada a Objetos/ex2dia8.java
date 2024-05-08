@@ -3,6 +3,8 @@ import java.util.Random;
 public class ex2dia8 {
     public static void main(String[] args) {
 
+        //Aluno: Eduardo Lourenço Antoniassi;
+        
         Random rand = new Random();
 
         String[] meses = {"Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", 

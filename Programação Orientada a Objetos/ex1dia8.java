@@ -5,6 +5,8 @@ import javax.swing.JOptionPane;
 public class ex1dia8 {
     public static void main(String[] args) {
         
+        //Aluno: Eduardo Lourenço Antoniassi;
+        
         Scanner sc = new Scanner(System.in);
 
         double[] notas = new double[5];
