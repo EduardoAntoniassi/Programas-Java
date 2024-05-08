@@ -2,41 +2,44 @@ import javax.swing.JOptionPane;
 
 public class ex3dia8 {
     public static void main(String[] args) {
-     
+        
         String[] opcoesIdioma = {"Português", "Inglês"};
         
-        int idiomaEscolhido = JOptionPane.showOptionDialog(null, 
-        "Escolha o idioma:", 
-        "Selecionar Idioma",
-        JOptionPane.DEFAULT_OPTION, JOptionPane.PLAIN_MESSAGE, null, opcoesIdioma, opcoesIdioma[0]);
+        int idiomaescolhido = JOptionPane.showOptionDialog(null, "Escolha o idioma:", "Selecionar Idioma",
+                JOptionPane.DEFAULT_OPTION, JOptionPane.PLAIN_MESSAGE, null, opcoesIdioma, opcoesIdioma[0]);
 
-        if (idiomaEscolhido == JOptionPane.CLOSED_OPTION) {
+        if (idiomaescolhido == JOptionPane.CLOSED_OPTION) {
             return; 
+
         }
 
-        int numeroMes = Integer.parseInt(JOptionPane.showInputDialog("Digite o número do mês (1-12):"));
+        int messelecionado = Integer.parseInt(JOptionPane.showInputDialog("Forneça o número do mês:"));
 
-        String mesPorExtenso = getMesPorExtenso(numeroMes, idiomaEscolhido);
-        JOptionPane.showMessageDialog(null, "O mês é: " + mesPorExtenso);
+        String mesPorExtenso = getMesPorExtenso(messelecionado, idiomaescolhido);
+
+        if(idiomaescolhido == 0){
+            JOptionPane.showMessageDialog(null, "Idioma: Português\nO mês é: " + messelecionado + " - " + mesPorExtenso);
+
+        } else if (idiomaescolhido == 1){
+            JOptionPane.showMessageDialog(null, "Idioma: Inglês\nO mês é: " + messelecionado + " - " + mesPorExtenso);
+        }
         
     }
 
-    public static String getMesPorExtenso(int numeroMes, int idioma) {
+    public static String getMesPorExtenso(int messelecionado, int idioma) {
         String[][] meses = {
+           
+            {"Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", 
+            "Outubro", "Novembro", "Dezembro"},
             
-            {"Janeiro", "Fevereiro", "Março", "Abril",
-            "Maio", "Junho", "Julho", "Agosto",
-            "Setembro", "Outubro", "Novembro", "Dezembro"},
-            
-            {"January", "February", "March", "April",
-            "May", "June", "July", "August",
-            "September", "October", "November", "December"}
+            {"January", "February", "March", "April", "May", "June", "July", "August", "September", 
+            "October", "November", "December"}
         };
 
-        if (numeroMes < 1 || numeroMes > 12) {
+        if (messelecionado < 1 || messelecionado > 12) {
             return "Mês inválido";
         }
 
-        return meses[idioma][numeroMes - 1];
+        return meses[idioma][messelecionado - 1];
     }
 }
