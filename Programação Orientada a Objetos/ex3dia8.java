@@ -3,6 +3,8 @@ import javax.swing.JOptionPane;
 public class ex3dia8 {
     public static void main(String[] args) {
         
+        //Aluno: Eduardo Lourenço Antoniassi;
+        
         String[] opcoesIdioma = {"Português", "Inglês"};
         
         int idiomaescolhido = JOptionPane.showOptionDialog(null, "Escolha o idioma:", "Selecionar Idioma",
