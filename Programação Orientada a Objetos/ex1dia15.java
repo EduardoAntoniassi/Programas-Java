@@ -37,7 +37,7 @@ public class ex1dia15 {
 
     public static void main(String[] args) {
         ex1dia15 bomba = new ex1dia15();
-        bomba.ligar(10); 
+        bomba.ligar(5); 
 
     }
 }
