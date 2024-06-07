@@ -3,6 +3,8 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+    //Aluno: Eduardo Lourenço Antoniassi;
+    
 public class TrabalhoFísica extends JFrame {
     private JTextField fallField;
     private JTextField distField;
