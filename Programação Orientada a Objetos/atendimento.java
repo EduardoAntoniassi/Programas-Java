@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.time.LocalDateTime;
 
-public class MensagemAtendimento {
+public class atendimento {
 
     public static void main(String[] args) {
     
